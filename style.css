@@ -1,0 +1,58 @@
+ @import url(https://fonts.googleapis.com/css?family=Mountains+of+Christmas:700);
+
+
+
+body{
+	margin:0;
+  padding:0;
+  background-color:#2b2b2b;
+  background-repeat: repeat-x;
+  display: grid;
+  grid-template-rows: 6rem auto 8rem;
+  grid-template-areas: header
+                      main
+                      footer;
+}
+.cursor{
+  position:absolute;
+  height:30px;
+  width:30px;
+  border-radius: 50%;
+  background-color: thistle;
+  pointer-events: none;
+  transform:translate(-50%, -50%);
+  mix-blend-mode: difference;
+  transform-origin: 80% 80%;
+  transition:transform 0.5s ease-in-out;
+  z-index: -1;
+  /* animation: borderAnim 4s linear infinite; */
+}
+.craft_head{
+  text-align: center;
+  height: 83px;
+  /* background-color: green; */
+}
+/* .heading{
+  background-color: rgb(56, 96, 189); 
+  height:20rem;
+  grid-area: main;
+} */
+/* .copyright{
+  background-color: cadetblue; 
+  height:10rem;
+  text-align: center;
+  grid-area: footer;
+} */
+  
+/* @keyframes borderAnim{
+   0%,100%{
+  border-radius: 30% 30% 70% 70%/70% 70% 30% 30%;
+ 
+  }
+  25%,75%{
+    border-radius: 64% 36% 72% 28%/70% 60% 30% 80%;
+    }
+  50%{
+   border-radius: 40% 65% 75% 70%/70% 70% 30% 30%;
+      }
+} */
