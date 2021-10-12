@@ -1,0 +1,61 @@
+.app_container{
+    /* margin-top: 22rem; */
+    height:100vh;
+}
+.app_infos{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.app_info{
+    list-style: none;
+    color:white;
+    padding: 33px 0px;
+    position: relative;
+    top: 14rem;
+}
+
+.app_h1{
+    font-size: 20px;
+    color: #DB4437;
+}
+
+.app_h2{
+    font-size: 42px;
+    font-family: 'Dancing Script', cursive;
+}
+.revise{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.app_info_1{
+    position: relative;
+    top: 30rem;
+    left: -13rem;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: skyblue;
+}
+
+.app_info_1:hover,
+.app_info_1:active{
+    color:white;
+}
+.app_info_2{
+    position: relative;
+    top: 30rem;
+    left: -16rem;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: skyblue;
+}
+
+
+.app_info_2:hover,
+.app_info_2:active{
+    color:white;
+}

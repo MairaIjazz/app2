@@ -1,0 +1,234 @@
+
+
+.about_list{
+    display: flex;
+    position: relative;
+    top: 19rem;
+    left: -19rem;
+    /* text-align: center; */
+    padding: 19px 0px;
+    justify-content: center;
+}
+.about_line{
+    color:#DB4437;
+    font-size: 22px;
+}
+.about_h{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 50px;
+    /* text-align: center; */
+}
+
+
+.another_para{
+    position: relative;
+    left: 43rem;
+    top: -19rem;
+    color:white;
+}
+.another_para_1{
+    position: relative;
+    left: 43rem;
+    top: -19rem;
+    color:white;
+}
+.new_praise{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 31rem;
+}
+
+.praise{
+    list-style: none;
+    padding: 19px 78px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+.fa-slideshare{
+    color: white;
+    position: relative;
+    font-size: 77px;
+    top: -10rem;
+    left: 15rem;
+    
+
+}
+.fa-slideshare:hover,
+.fa-slideshare:active{
+    color:#DB4437;
+    animation: popup 4s linear infinite;
+}
+@keyframes popup {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.4);
+    }
+    60%{
+      transform: scale(1.1);
+    }
+    70%{
+      transform: scale(1.2);
+    }
+    80%{
+      transform: scale(1);
+    }
+    90%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+.fa-bicycle{
+    color: #DB4437;
+    position: relative;
+    font-size: 77px;
+    top: -10rem;
+    left: 16rem;
+    animation: popup 4s linear infinite;
+}
+@keyframes popup {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.4);
+    }
+    60%{
+      transform: scale(1.1);
+    }
+    70%{
+      transform: scale(1.2);
+    }
+    80%{
+      transform: scale(1);
+    }
+    90%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  
+
+
+
+.fa-heart{
+    color: white;
+    position: relative;
+    font-size: 77px;
+    top: -10rem;
+    left: 15rem;
+}
+.fa-heart:hover,
+.fa-heart:active{
+    color:#DB4437;
+    animation: popup 4s linear infinite;
+}
+@keyframes popup {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.4);
+    }
+    60%{
+      transform: scale(1.1);
+    }
+    70%{
+      transform: scale(1.2);
+    }
+    80%{
+      transform: scale(1);
+    }
+    90%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  footer{
+   
+     
+  }
+
+.icons{
+    background-color:rgb(19, 15, 15,0.5);
+    position: relative;
+    top: 44.5rem;
+    text-align: center;
+
+}
+.icon{
+    height: 16rem;
+    padding:70px;
+   
+}
+ 
+ .fa-facebook-square{
+     color: white;
+     font-size: 20px;
+     padding: 12px 12px
+ }
+ 
+ .fa-facebook-square:hover,
+ .fa-facebook-square:active{
+    background-color:#DB4437;
+    border-radius: 2rem;
+    height: 48px;
+    width: 48px;
+   
+ }
+ .fa-twitter-square{
+     color: white;
+     font-size: 20px;
+     padding: 12px 12px
+ }
+ .fa-twitter-square:hover,
+ .fa-twitter-square:active{
+    background-color:#DB4437;
+    border-radius: 2rem;
+    height: 48px;
+    width: 48px;
+  
+ }
+ .fa-pinterest-square{
+     color: white;
+     font-size: 20px;
+     padding: 12px 12px
+ }
+ .fa-pinterest-square:hover,
+ .fa-pinterest-square:active{
+    background-color:#DB4437;
+    border-radius: 2rem;
+    height: 48px;
+    width: 48px;
+    
+ }
+ .fa-linkedin{
+     color: white;
+     font-size: 20px;
+     padding: 12px 12px
+ }
+ .fa-linkedin:hover,
+ .fa-linkedin:active{
+    background-color:#DB4437;
+    border-radius: 2rem;
+    height: 48px;
+    width: 48px;
+   
+ }
+
+.copy__{
+    color:white;
+    position: relative;
+    left: 1rem;
+    top: -6rem;
+}

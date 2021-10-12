@@ -1,0 +1,64 @@
+<!--
+* best practice to use class instead of id.
+* don't use !important because it will not override your css if u wants to.
+*:not() mean that could be any thing except the one mentioned.thats y use it with caution.
+*whenever use float then use clearfix at the end of section which u floated in html file e.g.
+
+<div class="clearfix"></div>
+*then write in css file: .clearfix{
+    clear: both;
+}
+
+
+* if we use relative positioning and the child move out from parent class then we can hide the overflow by using 
+overflow:hidden 
+* if relative positioning is in parent class then we can use overflow:hidden both in html and body too becoz individually they can't 
+hide overflow.
+
+*sticky position is combo of fixed and relative. In chrome it is partially supported, so don't use it.
+
+*background properties:
+========================
+*background-image
+*background-color
+*background-position
+*background-origin
+*background-attachment
+*background-clip
+*background-size
+*background-repeat
+
+
+*we also have filters in CSS.
+
+
+*units: 
+*pixel
+*% percentage
+*rem(root em)it is related to font
+*em (it is also related to font)
+*viewport Height(vh)
+*viewport Width(vw)
+
+
+* the containing block is viewport.
+
+*em and rem use for font size we donot use px for website because user could not increase or decrease the size becoz of px 
+but em and rem could.But rem is more suitable then em. rem handle root thats y.rem also use for margin approach, for padding.
+when us use rem the user have more control on size.
+
+*Order matters for media query from smaller to bigger it will not jump from bigger to smaller.
+
+******NOTE:
+Flex is better option than in-block,block.
+
+
+****NOTE:
+if we set grid for body then it will not show grid for those child which have fixed display.
+
+
+
+****NOTE:
+when we will give relative position in parent class then we will give absolute position in children class
+
+-->

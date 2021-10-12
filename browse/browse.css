@@ -1,0 +1,318 @@
+.new_sec{
+   background-color: rgb(22, 20, 20,0.5);
+   display: flex;
+   justify-content: center;
+   margin: 45px 2px;
+   text-align: center;
+   /* border: 2px solid; */
+   padding: 0px 54px 57px 581px;
+
+  }
+.info_order{
+   color: grey;
+   position: relative;
+   left: -38rem;
+   top: 15rem;
+   justify-content: center;
+}
+.basic_p{
+   color: #DB4437;
+}
+ .deli__food{
+   font-size: 56px;
+    font-family: 'Dancing Script', cursive;
+ }
+
+ .items_order{
+   position: relative;
+   /* display: inline-block; */
+   justify-content: center;
+   text-align: center;
+   /* padding: 2px 51px; */
+   color: #DB4437;
+   top: -3rem;
+   left: 6rem;
+
+ }
+ .item_order{
+   list-style: none;
+   position: relative;
+   top: 5rem;
+   left: -2rem;
+   font-size: 14px;
+   font-weight: bold;
+   /* display: inline-block; */
+   /* justify-content: center; */
+   /* text-align: center; */
+   /* vertical-align: middle; */
+   padding: 32px;
+ }
+
+ .number_of_orders{
+   display: flex;
+   justify-content: center;
+ }
+
+ .fa-signal{
+   color: #DB4437;
+   font-size: 2rem;
+   position: relative;
+   top: -2.5rem;
+   left: 3.5rem;
+  
+ }
+ .fa-signal:hover,
+ .fa-signal:active{
+   transform:  scale(1.2);
+ }
+ 
+ 
+ .fa-users{
+   color: #DB4437;
+   font-size: 2rem;
+   position: relative;
+   top: -2.5rem;
+   left: 3.5rem;
+ }
+ .fa-users:hover,
+ .fa-users:active{
+   transform:  scale(1.2);
+ }
+ 
+ 
+ .fa-coffee{
+   color: #DB4437;
+   font-size: 2rem;
+   position: relative;
+   top: -2.5rem;
+   left: 3.5rem;
+ }
+ .fa-coffee:hover,
+ .fa-coffee:active{
+   transform:  scale(1.2);
+ }
+ 
+ 
+ .menu_lists{
+   display:flex;
+   justify-content: center;
+    list-style: none;
+    position: relative;
+    top: -2rem;
+ }
+ .menu_list{
+  list-style: none;
+  background-color:  rgba(0, 0, 0, 0.5);
+}
+.menu_lists_2{
+   display:flex;
+   justify-content: center;
+   margin-top: 7rem;
+  
+}
+.menu_list_1{
+   list-style: none;
+   background-color:  rgba(0, 0, 0, 0.5);
+}
+.menu{
+   margin-top:10rem;
+}
+.container_menu{
+   text-decoration: none;
+   position: relative;
+   top: -6rem;
+   background-color: rgba(0, 0, 0, 0.5);
+
+}
+.menu_h {
+   text-decoration: none;
+   color:white;
+  
+ }
+a{
+   text-decoration: none;
+  
+  
+ }
+ :focus {
+   outline: none;}
+
+ .menu_info{
+ 
+   color:grey;
+   text-decoration: none;
+   
+ }
+ .fa-star{
+   
+   color: gold;
+ }
+  
+ .menu__{
+   background: linear-gradient( #aa110c , rgb(212, 75, 11));
+   border: none;
+   /* border: 1px solid grey; */
+   border-radius: 6rem;
+   width: 43rem;
+   height: 5rem;
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+ }
+ .menu__:hover,
+ .menu__:active{
+   background:  linear-gradient(  rgb(212, 75, 11) , #aa110c);
+ }  
+ .button__{
+   margin-top: 7rem;
+   display: flex;
+   justify-content: center
+ }
+
+ .parallax {
+   /* The image used */
+   background-image: url("../flakes.jpg");
+ 
+   /* Set a specific height */
+   min-height: 500px; 
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .testimonial{
+   height:601px;
+   background-color:rgb(7, 6, 6,0.5);
+   font-size:36px
+ }
+ .card-carousel {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   left:80px;
+ }
+ .name{
+   font-size: 17px;
+   text-align: center;
+   color: #DB4437;
+ }
+ .person_info{
+   font-size: 11px;
+   color: white;
+   text-align: center;
+ }
+ 
+ .card-carousel .my-card {
+   height: 12rem;
+   width: 12rem;
+   position: relative;
+   top: 10rem;
+   border-radius: 394px;
+   z-index: 1;
+   -webkit-transform: scale(0.6) translateY(-2rem);
+   transform: scale(0.6) translateY(-2rem);
+   opacity: 0;
+   cursor: pointer;
+   pointer-events: none;
+   /* background: #2e5266;
+   background: linear-gradient(to top, #2e5266, #6e8898); */
+   transition: 1s;
+ }
+ 
+ .card-carousel .my-card:after {
+   content: '';
+   /* position: absolute; */
+   height: 2px;
+   width: 100%;
+   border-radius: 100%;
+   background-color: rgba(0,0,0,0.3);
+   bottom: -5rem;
+   -webkit-filter: blur(4px);
+   filter: blur(4px);
+ }
+ 
+ .card-carousel .my-card.active {
+   z-index: 3;
+   -webkit-transform: scale(1) translateY(0) translateX(0);
+   transform: scale(1) translateY(0) translateX(0);
+   opacity: 1;
+   pointer-events: auto;
+   transition: 1s;
+ }
+ 
+ .card-carousel .my-card.prev, .card-carousel .my-card.next {
+   z-index: 2;
+   -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+   transform: scale(0.8) translateY(-1rem) translateX(0);
+   opacity: 0.6;
+   pointer-events: auto;
+   transition: 1s;
+ }
+ .card-carousel .my-card:nth-child(0):before {
+   /* content: '0'; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   font-size: 3rem;
+   font-weight: 300;
+   color: #fff;
+ }
+ 
+ .card-carousel .my-card:nth-child(1):before {
+   /* content: '1'; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   font-size: 3rem;
+   font-weight: 300;
+   color: #fff;
+ }
+ 
+ .card-carousel .my-card:nth-child(2):before {
+   /* content: '2'; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   font-size: 3rem;
+   font-weight: 300;
+   color: #fff;
+ }
+ 
+ .card-carousel .my-card:nth-child(3):before {
+   /* content: '3'; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   font-size: 3rem;
+   font-weight: 300;
+   color: #fff;
+ }
+ 
+ .card-carousel .my-card:nth-child(4):before {
+   /* content: '4'; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+   font-size: 3rem;
+   font-weight: 300;
+   color: #fff;
+ }
+ .person_1{
+   font-size: 11px;
+   text-align: center;
+   color: white;
+   padding:209px;
+ }
