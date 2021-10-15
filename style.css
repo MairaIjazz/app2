@@ -79,10 +79,15 @@
 
   /* border: 2px solid blue; */
   text-align: center;
-  margin-top: -51rem;
+  margin-top: -39rem;
   width:100%;
   
 
+}
+@media(min-width:1020px){
+  .plan{
+    margin-top: -51rem;
+  }
 }
 .plan_p1{
 color:grey;
@@ -105,8 +110,15 @@ position: relative;
   display: flex;
   justify-content: center;
   position: relative;
-  top: -43rem;
-  left: -4rem;
+  top: -49rem;
+    left: 19rem;
+
+}
+@media(min-width:1020px){
+  .food_{
+    top: -43rem;
+    left: -4rem;
+  }
 }
 .food{
 
@@ -138,8 +150,14 @@ position: relative;
 
 .big_{
   position: relative;
-  top: 19rem;
+  top: 52rem;
   
+}
+
+@media(min-width:1020px){
+  .big_{
+    top:19rem;
+  }
 }
 
 .pizza {
@@ -157,11 +175,25 @@ position: relative;
   justify-content: flex-end;
   /* border: 2px solid green; */
   position: relative;
-  top: -26rem;
+
+  top: 16rem;
   
 }
+@media(min-width:1020px){
+  .pizz2_{
+    top: -26rem;
+  }
+}
 .pizza_2{
-  transition: transform .5s
+  transition: transform .5s;
+  height: 173px;
+  width: 233px;
+}
+@media(min-width:1020px){
+  .pizza_2{
+    height: 194px;
+    width: 25rem;
+  }
 }
 .pizza_2:hover,
 .pizza_2:active{
@@ -170,13 +202,19 @@ position: relative;
 
 .leave_{
   /* border: 2px solid green; */
-  display: flex;
+  display: none;
   justify-content: center;
   margin-right: -94rem;
   position: relative;
   top: -54rem
   
 }
+@media(min-width:1020px){
+  .leave{
+    display:flex;
+  }
+}
+
 
 .leave{
   margin-right:870px;
@@ -201,33 +239,64 @@ position: relative;
   position: relative;
   z-index: 1;
   color: red;
-  top: 4.5rem;
+  top: -2.5rem;
   left: 5rem;
+ 
     
+}
+@media(min-width:1020px){
+  .fa-location-arrow{
+    top: 4.5rem;
+    left: 5rem;
+  }
 }
 
 #searchTextField{
-
-  background-color: rgba(36, 35, 35, 0.5);
-  top: 2rem;
-  left: 1rem;
-  border-radius: 50rem;
-  width: 60rem;
-  position: relative;
-  height: 6rem;
+  height: 7rem;
+  background-color: white;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 0rem;
+  width: 26rem;
+  height: 3rem;
+  height: 0.3rem;
   border: none;
-  padding-left: 7rem;
-  padding-right: 25rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
   color: white;
-  font-size: 15px;
+  font-size: 0px;
+
+
 
     
+}
+@media(min-width:1020px){
+  #searchTextField{
+    background-color: rgba(36, 35, 35, 0.5);
+    top: 2rem;
+    left: 1rem;
+    border-radius: 50rem;
+    width: 60rem;
+    position: relative;
+    height: 6rem;
+    border: none;
+    padding-left: 7rem;
+    padding-right: 25rem;
+    color: white;
+    font-size: 15px;
+  }
 }
 .search_{
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
-  margin-top: -6.6rem;
+  margin-top: 16.4rem;
+
+}
+@media(min-width:1020px){
+  .search_{
+    margin-top: -6.6rem;
+  }
 }
 
 input::placeholder{
@@ -244,11 +313,17 @@ input:focus {
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
-  margin-top: -3.3rem;
+  margin-top: 3.7rem;
 
 }
+@media(min-width:1020px){
+  .button_{
+    margin-top: -3.3rem;
+  }
+}
+
 .delivery__{
-  margin-right: -37rem;
+  margin-right: -1rem;
   padding: -97px 23px;
   height: 4.7rem;
   width: 24rem;
@@ -260,6 +335,12 @@ input:focus {
   font-weight: bold;
   z-index: 1;
 }
+@media(min-width:1020px){
+  .delivery__{
+    margin-right: -37rem;
+  }
+}
+
 
 .delivery__:hover,
 .delivery__:active{

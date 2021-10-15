@@ -14,7 +14,12 @@
     <div class="backdrop"></div>
     <div class="cursor"></div>
     <header class="logo_head">
-        <nav style="height: 70px;">
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+    </button>
+        <nav class="navigation" style="height: 70px;">
         <div style="height:70px;">
        
 <ul class="list_items">
@@ -62,6 +67,23 @@
    
       </nav>    
     </header>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">        
+          <li class="mobile-nav__item"> <a href="index.html"><img src="../logo.png" alt="logo" class="logo_pic"></a> </li>
+          <li class="mobile-nav__item"><a href="../browse/browse.html">Browse Food</a></li>
+          <li class="mobile-nav__item"><a href="../app/app.html">Download App</a></li>
+          <li class="mobile-nav__item"><a href="../about/about.html">About Us</a></li>
+          <li class="mobile-nav__ite">   <a href="#" style="width:3rem;"> <i class="fa fa-facebook-square"></i></a>
+            <a href="#"  style="width:3rem;"> <i class="fa fa-twitter-square"></i></a>
+            <a href="#"  style="width:3rem;">  <i class="fa fa-pinterest-square"></i></a>
+            <a href="#"  style="width:3rem;">  <i class="fa fa-linkedin"></i></a></li>
+          <li class="mobile-nav__ite"><a href="#">Email@website.com</a></li>
+          <li class="mobile-nav__ite"><a href="#">+1 631 123 4567</a></li>
+          <li class="mobile-nav__ite"><a href="#">
+            © 2020 MegaOne. Made With Love by Themesindustry</a></li>
+            <li class="mobile-nav__ite"><a href="#">_________________________________</a></li>
+        </ul>
+        </nav>
     <main>
         <div class="new_sec">
         <section>
@@ -78,24 +100,27 @@
                
                 <li class="item_order">
                   <i class="fa fa-signal"></i>
-                    1052+
+                 
                     <p class="online_">
+                      1052+
                         Online Orders
                     </p>
                 </li>
              
                 <li  class="item_order">
                   <i class="fa fa-users"></i>
-                    9800+
+                   
                     <p class="online_">
+                      9800+
                         Satisfied Customers
                     </p>
                 </li>
              
                 <li  class="item_order">
                   <i class="fa fa-coffee"></i>
-                    3785+
+                  
                     <p class="online_">
+                      3785+
                         Cups of tea
                     </p>
                 </li>
@@ -115,11 +140,8 @@
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
                       </div>
-                      <div>
-                  <img src="../spaghetti.jpg" class="chick_1" style="    width: 270px;
-                  height: 264px;    position: relative;
-    top: -1.3rem;
-    left: 0.5rem;     padding: 2px 20px;">
+                      <div class="fix">
+                  <img src="../spaghetti.jpg" class="chick_1">
            
           </div>
       </a>
@@ -135,11 +157,8 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div>
-               <img src="../spaghetti.jpg" class="food_2"  style="    width: 270px;
-               height: 264px;;       position: relative;
-    top: -1.3rem;
-    left: 0.5rem;     padding: 2px 20px;">
+                <div class="fix">
+               <img src="../spaghetti.jpg" class="food_2">
          
           </div>
       </a>
@@ -157,11 +176,8 @@
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div>
-               <img src="../spaghetti.jpg" class="spag_3"  style="    width: 270px;
-               height: 264px;       position: relative;
-    top: -1.3rem;
-    left: -0.5rem;     padding: 2px 20px;">
+                <div class="fix">
+               <img src="../spaghetti.jpg" class="spag_3" >
        
           </div>
       </a>
@@ -179,10 +195,8 @@
                       <i class="fa fa-star"></i>
                       <i class="fa fa-star"></i>
                   </div>
-                  <div>
-               <img src="../pizz.jpg" class="foo_4"  style="    width: 270px; height: 264px;    position: relative;
-               top: -1.3rem;
-               left: 0.5rem;     padding: 2px 20px;">
+                  <div class="fix">
+               <img src="../pizz.jpg" class="foo_4">
               </div>
            </a>
       
@@ -198,11 +212,8 @@
                       <i class="fa fa-star"></i>
                       <i class="fa fa-star"></i>
                   </div>
-                  <div>
-               <img src="../pizz.jpg" class="chick"  style="    width: 270px;
-               height: 264px;;       position: relative;
-    top: -1.3rem;
-    left: 0.5rem;     padding: 2px 20px;">
+                  <div class="fix">
+               <img src="../pizz.jpg" class="chick" >
                   </div>
            </a>
           </li>
@@ -217,13 +228,12 @@
                       <i class="fa fa-star"></i>
                       <i class="fa fa-star"></i>
                       <i class="fa fa-star"></i>
-                    </a>
+                  
                   </div>
-                  <div>
-               <img src="../pizz.jpg" class="chick_6"  style="    width: 270px;
-               height: 264px;;      position: relative;top: -1.3rem; left: -0.5rem;     padding: 2px 20px;">
+                  <div class="fix">
+               <img src="../pizz.jpg" class="chick_6" >
                   </div>
-          
+                </a>
           </li>
           </ul>
           <div class="button__"> 
@@ -241,22 +251,22 @@
          
           <div class="card-carousel">
             <div class="my-card">
-              <img src="Ellipse 2.png" style="height: 144px;width: 144px;border-radius: 77px;">
+              <img src="Ellipse 2.png" class="elli" >
               <h1 class="name">Jamie Anderson</h1>
               <p class="person_info">New York City</p>
             </div>
             <div class="my-card">
-              <img src="user2.jpg"style="height: 144px;width: 144px;border-radius: 77px;">
+              <img src="user2.jpg" class="elli"  >
               <h1 class="name">Zack Knight</h1>
               <p class="person_info">New York City</p>
             </div>
             <div class="my-card">
-              <img src="user3.jpg" style="height: 144px;width: 144px;border-radius: 77px;">
+              <img src="user3.jpg" class="elli" >
               <h1 class="name">Rolph Wood</h1>
               <p class="person_info">New York City</p>
             </div>
             <div class="my-card">
-              <img src="Frame 1 (1).png" style="height: 144px;width: 144px;border-radius: 77px;">
+              <img src="Frame 1 (1).png" class="elli">
               <h1 class="name">Elana Bush</h1>
               <p class="person_info">New York City</p>
             </div>
@@ -270,6 +280,7 @@
    </section>
     </main>
     <script src="../app.js"></script>
+    <script src="browse.js"></script>
   
 </body>
 </html>
