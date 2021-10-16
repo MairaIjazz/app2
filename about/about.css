@@ -1,60 +1,110 @@
-
-
 .about_list{
     display: flex;
     position: relative;
-    top: 19rem;
-    left: -19rem;
+    top: 13rem;
+    left: 0rem;
     /* text-align: center; */
     padding: 19px 0px;
     justify-content: center;
+}
+@media(min-width:1020px){
+  .about_list{
+    left: -19rem;
+    top: 19rem;
+  }
 }
 .about_line{
     color:#DB4437;
     font-size: 22px;
 }
+@media(min-width:1020px){
+  .about_line{
+    
+  }
+}
 .about_h{
+    text-align: center;
     font-family: 'Dancing Script', cursive;
     color: white;
     font-size: 50px;
     /* text-align: center; */
 }
+@media(min-width:1020px){
+  .about_h{
+    
+  }
+}
 
 
 .another_para{
     position: relative;
-    left: 43rem;
-    top: -19rem;
+    left: 0rem;
+    top: 2rem;
     color:white;
+    text-align: center;
+}
+@media(min-width:1020px){
+  .another_para{
+    left: 38rem;
+    top: -19rem;
+    text-align: start;
+  }
 }
 .another_para_1{
     position: relative;
-    left: 43rem;
-    top: -19rem;
+    left: 0rem;
+    top: 1rem;
     color:white;
+    text-align: center;
+}
+@media(min-width:1020px){
+  .another_para_1{
+    left: 38rem;
+    top: -19rem;
+    text-align: start;
+  }
 }
 .new_praise{
-    display:flex;
-    justify-content: center;
+    display:block;
     position: relative;
     top: 31rem;
+}
+@media(min-width:1020px){
+  .new_praise{
+    display:flex;
+    justify-content: center;
+  }
 }
 
 .praise{
     list-style: none;
-    padding: 19px 78px;
+    padding: 43px 78px;
     color: white;
     font-size: 17px;
     text-align: center;
+}
+@media(min-width:1020px){
+  .praise{
+    padding: 19px 78px;
+  }
 }
 .fa-slideshare{
     color: white;
     position: relative;
     font-size: 77px;
-    top: -10rem;
-    left: 15rem;
+    top: -1rem;
+    left: 0rem; 
+    display: flex;
+    justify-content: center
+   
     
 
+}
+@media(min-width:1020px){
+  .fa-slideshare{
+    left: 15rem;
+    top: -10rem;
+  }
 }
 .fa-slideshare:hover,
 .fa-slideshare:active{
@@ -88,9 +138,17 @@
     color: #DB4437;
     position: relative;
     font-size: 77px;
-    top: -10rem;
-    left: 16rem;
+    top: 1rem;
+    left: 0rem;
+    display: flex;
+    justify-content: center;
     animation: popup 4s linear infinite;
+}
+@media(min-width:1020px){
+  .fa-bicycle{
+    left: 16rem;
+    top: -10rem;
+  }
 }
 @keyframes popup {
     0%{
@@ -123,8 +181,17 @@
     color: white;
     position: relative;
     font-size: 77px;
-    top: -10rem;
+    top: 1rem;
+    left: 0rem; 
+    display: flex;
+    justify-content: center
+    
+}
+@media(min-width:1020px){
+  .fa-heart{
     left: 15rem;
+    top: -10rem;
+  }
 }
 .fa-heart:hover,
 .fa-heart:active{
